@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Inter, Montserrat, Ubuntu_Mono } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
+const montserrat = Montserrat({ subsets: ["latin"], weight: ["200","300","400", "700"] });
 
-const inter = Inter({ subsets: ["latin"], weight: ["400", "700"] });
+const inter = Inter({ subsets: ["latin"], weight: ["400", "700","800","900"] });
 
 const ubuntuMono = Ubuntu_Mono({
   subsets: ["latin"],
