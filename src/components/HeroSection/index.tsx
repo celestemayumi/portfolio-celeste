@@ -12,6 +12,7 @@ const HeroSection = () => {
           <h1 className={`${inter.className} mb-4 text-6xl font-extrabold text-black`}>
             Celeste Tanaka
           </h1>
+          <p className={`${ubuntuMono.className} mb-4 text-4xl font-extrabold text-[#0074F8]`}>Software Engineer</p>
         </div>
         <Image 
         src="/me.png" 
