@@ -6,7 +6,7 @@ import { ubuntuMono } from "@/app/layout";
 const Header = ()=>{
     return(
         <>
-        <div className="flex justify-between items-center p-3 backdrop-blur-sm">
+        <div className="flex justify-between items-center p-3 backdrop-blur-sm fixed w-full z-10">
             <Image
             src="/cat.png"
             width={70}
