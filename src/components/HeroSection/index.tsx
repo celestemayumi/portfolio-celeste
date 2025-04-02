@@ -9,7 +9,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <>
-      <main className="flex justify-evenly items-center min-h-[400px]">
+      <main className="flex justify-evenly items-center min-h-[550px]">
         <div className="">
           <p
             className={`${montserrat.className} text-3xl text-black font-light`}
